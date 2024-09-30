@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Model Marketplace</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+  </head>
+  <body>
+    <h1>AI Model Marketplace</h1>
+
+    <!-- Form to List AI Model -->
+    <div>
+      <h2>List New Model</h2>
+      <input type="text" id="modelName" placeholder="Model Name" />
+      <input
+        type="text"
+        id="modelDescription"
+        placeholder="Model Description"
+      />
+      <input type="number" id="modelPrice" placeholder="Model Price (in Wei)" />
+      <button onclick="listModel()">List Model</button>
+    </div>
+
+    <!-- Available Models List -->
+    <div>
+      <h2>Available Models</h2>
+      <div id="modelsList"></div>
+    </div>
+
+    <!-- Purchase Model -->
+    <div>
+      <h2>Purchase Model</h2>
+      <input type="number" id="modelIdPurchase" placeholder="Model ID" />
+      <button onclick="purchaseModel()">Purchase</button>
+    </div>
+
+    <!-- Rate Model -->
+    <div>
+      <h2>Rate Model</h2>
+      <input
+        type="number"
+        id="ratingModelId"
+        placeholder="Enter Model ID"
+        required
+      />
+      <input
+        type="number"
+        id="rating"
+        placeholder="Enter Rating (1-5)"
+        required
+      />
+      <button onclick="rateModel()">Rate Model</button>
+    </div>
+
+    <!-- Display Model Details -->
+    <div>
+      <h2>Model Details</h2>
+      <input type="number" id="detailsModelId" placeholder="Model ID" />
+      <button onclick="getModelDetails()">Get Details</button>
+      <p id="modelDetails"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
