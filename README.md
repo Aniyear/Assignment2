@@ -63,9 +63,3 @@ The smart contract is written in Solidity and manages the core functionalities o
 - Retrieving model details
 
 You can find the smart contract code in the repository.
-
-## Contributing
-Contributions are welcome! Please create a pull request or open an issue to discuss any changes.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
