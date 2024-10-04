@@ -61,6 +61,4 @@ After browsing available models, click "Purchase" next to the desired model. Ens
 ### Rating a Model
 After purchasing a model, you can rate it by clicking on the rating button under the model’s details.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
