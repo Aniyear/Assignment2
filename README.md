@@ -43,13 +43,13 @@ The smart contract for the AI Model Marketplace is written in Solidity and deplo
 ## Screenshots
 
 ### Marketplace Interface
-![Marketplace Interface](images/marketplace.png)
+![Marketplace Interface](public/marketplace.png)
 
 ### Add Model Form
-![Add Model Form](images/add-model.png)
+![Add Model Form](public/add-model.png)
 
 ### Rate Model
-![Rate Model](images/rate-model.png)
+![Rate Model](public/rate-model.png)
 
 ## Examples
 ### Listing a Model
