@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.rating {
+  margin-top: 10px;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: gray;
+  transition: color 0.2s; /* Smooth transition */
+}
+
+.star:hover,
+.star.selected {
+  color: gold;
+}
+
+.model-details {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e9ecef;
+}
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Model Marketplace</title>
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center my-4">
+            <h1>AI Model Marketplace</h1>
+        </header>
+
+        <div>
+            <button class="btn btn-primary" id="addModelBtn">Add Model</button>
+        </div>
+
+        <div id="modelForm" class="my-4" style="display: none;">
+            <h2>List New Model</h2>
+            <input type="text" id="modelName" class="form-control" placeholder="Model Name" />
+            <input type="text" id="modelDescription" class="form-control" placeholder="Model Description" />
+            <input type="number" id="modelPrice" class="form-control" placeholder="Model Price (in Wei)" />
+            <button class="btn btn-success" id="saveModelBtn">Save Model</button>
+        </div>
+
+        <!-- Available Models List -->
+        <h2>Available Models</h2>
+        <div id="modelsList" class="row"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
